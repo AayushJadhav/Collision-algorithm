@@ -7,15 +7,15 @@ var mouse, mouse_enjoying, mouse_provoking, mouse_analyzing;
 function preload() {
     //load the images here
 
-    backgroundImg = loadImage("images/garden.png");
+    backgroundImg = loadImage("/images/garden.png");
 
-    tom_sitting = loadAnimation('images/cat1.png');
-    tom_moving = loadAnimation('images/cat2.png', 'images/cat3.png');
-    tom_quiet = loadAnimation('images/cat4.png');
+    tom_sitting = loadAnimation('/images/cat1.png');
+    tom_moving = loadAnimation('/images/cat2.png', 'images/cat3.png');
+    tom_quiet = loadAnimation('/images/cat4.png');
 
-    mouse_enjoying = loadAnimation('images/mouse1.png');
-    mouse_provoking = loadAnimation('images/mouse2.png', 'images/mouse3.png');
-    mouse_analyzing = loadAnimation('images/mouse4.png');
+    mouse_enjoying = loadAnimation('/images/mouse1.png');
+    mouse_provoking = loadAnimation('/images/mouse2.png', 'images/mouse3.png');
+    mouse_analyzing = loadAnimation('/images/mouse4.png');
 }
 
 function setup(){
