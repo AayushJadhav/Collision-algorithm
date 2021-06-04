@@ -42,9 +42,9 @@ function setup(){
     mouse.addAnimation('analyzing', mouse_analyzing);
     mouse.scale = 0.1;
 
-    mouse.debug = true;
+    mouse.debug = false;
     mouse.setCollider('rectangle', 0, 0, mouse.width, mouse.height);
-    tom.debug = true;
+    tom.debug = false;
     tom.setCollider('rectangle', 0, 0, tom.width, tom.height);
 }
 
